@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.to-do-list-section h1 {
+  color: rgb(130, 179, 196);
+}
+.to-do-list-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  width: 20rem;
+  height: 1.6rem;
+  border: 1px solid grey;
+  border-radius: 0.2rem;
+}
+.input-section {
+  position: relative;
+  top: 1rem;
+}
+.button-add,
+.button-reset {
+  height: 1.6rem;
+  border: 1px solid grey;
+  border-radius: 0.2rem;
+  width: 4rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.button-add,
+.button-reset:hover {
+  color: white;
+  border: none;
+  background-color: rgb(130, 179, 196);
+}
+.content-section {
+  padding: 0.5rem;
+  width: 28.5rem;
+  height: 80vh;
+  background-color: white;
+  border: 1px solid grey;
+  position: relative;
+  top: 2rem;
+  font-size: 1.2rem;
+}
+.delete-button {
+  color: white;
+  width: 2rem;
+  border-radius: 0.2rem;
+  margin-left: 0.4rem;
+  display: inline-block;
+  font-size: 1rem;
+  position: absolute;
+  left: 25rem;
+  text-align: center;
+  height: 1.4rem;
+  background-color: rgb(130, 179, 196);
+  cursor: pointer;
+}
+.finish-button {
+  color: white;
+  width: 2.9rem;
+  border-radius: 0.2rem;
+  margin-left: 0.4rem;
+  display: inline-block;
+  font-size: 1rem;
+  text-align: center;
+  height: 1.4rem;
+  background-color: rgb(209, 97, 166);
+  cursor: pointer;
+}
+.line {
+  text-decoration: underline;
+}
+/* .do {
+  color: white;
+  width: 2.9rem;
+  border-radius: 0.2rem;
+  margin-left: 0.4rem;
+  display: inline-block;
+  font-size: 1rem;
+  text-align: center;
+  height: 1.4rem;
+  background-color: rgb(21, 116, 34);
+  cursor: pointer;
+  display: none;
+} */
